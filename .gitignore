@@ -2,6 +2,9 @@
 bin/
 obj/
 
+# Ignore the entire client folder
+client/
+
 # Ignore SQLite database file
 server/KitchenInventory.db
 
