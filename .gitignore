@@ -1,0 +1,46 @@
+# Ignore build outputs
+bin/
+obj/
+
+# Ignore SQLite database file
+server/KitchenInventory.db
+
+# Ignore Visual Studio files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore node_modules
+client/node_modules/
+server/node_modules/
+
+# Ignore frontend build outputs
+client/build/
+client/dist/
+
+# Ignore environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore MacOS metadata files
+.DS_Store
+
+# Ignore other database files
+*.sqlite
+*.sqlite3
+
+# Ignore compiled JavaScript maps
+*.map
